@@ -6,6 +6,7 @@
 
 /* Utilities */
 
+
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
@@ -20,7 +21,7 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh; /* ti incuriosisce? CARINOOOOOO!!!! */ 
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -42,6 +43,39 @@ video {
 	font-family: "TikTok Sans", sans serif;
 	font-size:10px;
 }
+
+.header-bar {
+	display:flex;
+	width:100%;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: space-between;
+}
+
+.header-bar > * {
+	width: calc(100% / 3);
+	padding: 10px;
+}
+
+.header-categories {
+	display:flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	text-align:center;
+}
+
+.category1, .category2, .category3 {
+	width: calc(100% / 3);
+	display: block;
+}
+
+header i {
+	font-size:18px;
+}
+
+
 
 /* Footer */
 
