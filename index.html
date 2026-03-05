@@ -1,105 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bool Tok</title>
+    <link rel="icon" href="assets/img/booltok_logo.png" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bool Tok</title>
-  <link rel="icon" href="assets/img/booltok_logo.png">
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
 
+    <!-- TikTok Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
+  <body>
+    <!-- Container della pagina, necessario per via del layout particolare -->
+    <div class="reel-page">
+      <video src="assets/video/coder.mp4" autoplay muted loop></video>
 
-  <!-- TikTok Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
-    rel="stylesheet">
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-  <!-- Container della pagina, necessario per via del layout particolare -->
-  <div class="reel-page">
-    <video src="assets/video/coder.mp4"  muted loop ></video>
-
-    <!-- Header -->
-    <header class="reel-header">
-      <div class="header-bar">
-        <i class="bi bi-play-btn"></i>
-        <div class="header-categories">
-          <span class="category1"> 
-            <p header-text>Esplora</p>
-          </span>
-          <span class="category2"> 
-            <p header-text>Seguiti</p>
-          </span>
-          <span class="category3"> 
-            <p header-text>Per te</p>
-          </span>
+      <!-- Header -->
+      <header class="reel-header">
+        <div class="header-bar">
+          <i class="bi bi-play-btn"></i>
+          <div class="header-categories">
+            <span class="category1">
+              <p header-text>Esplora</p>
+            </span>
+            <span class="category2">
+              <p header-text>Seguiti</p>
+            </span>
+            <span class="category3">
+              <p header-text>Per te</p>
+            </span>
+          </div>
+          <i class="bi bi-search"></i>
         </div>
-        <i class="bi bi-search"></i>
-      </div>
-      
+      </header>
 
-    </header>
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- se arrivo al bonus qui ci metto il follow -->
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-       
-      <!-- se arrivo al bonus qui ci metto il follow -->
-        
-      <div class="sb-heart">
-        <i class="bi bi-heart-fill"></i>
-        <p class="sb-p heart-p">588</p>
+        <div class="sb-heart">
+          <i class="bi bi-heart-fill"></i>
+          <p class="sb-p heart-p">588</p>
+        </div>
+        <div class="sb-comment">
+          <i class="bi bi-chat-dots-fill"></i>
+          <p class="sb-p comment">13</p>
+        </div>
+        <div class="sb-save">
+          <i class="bi bi-bookmark-fill"></i>
+          <p class="sb-p save">638</p>
+        </div>
+        <div class="sb-p share">
+          <i class="bi bi-arrow-up-right-square-fill"></i>
+          <p class="sb-p share">491</p>
+        </div>
       </div>
-      <div class="sb-comment">
-        <i class="bi bi-chat-dots-fill"></i>
-        <p class="sb-p comment">13</p>
-      </div>
-      <div class="sb-save">
-        <i class="bi bi-bookmark-fill"></i>
-        <p class="sb-p save">638</p>
-      </div>
-      <div class="sb-p share">
-        <i class="bi bi-arrow-up-right-square-fill"></i>
-        <p class="sb-p share">491</p>
-      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-nav">
+          <div class="nav-home">
+            <i class="bi bi-house-fill"></i>
+            <p class="nav-p nav-home">Home</p>
+          </div>
+          <div class="nav-amici">
+            <i class="bi bi-people"></i>
+            <p class="nav-p nav-amici">Amici</p>
+          </div>
+          <div class="nav-add-button">
+            <p class="nav-p plus">+</p>
+          </div>
+
+          <div class="nav-posta">
+            <i class="bi bi-chat-square"></i>
+            <p class="nav-p nav-posta">Posta in Arrivo</p>
+          </div>
+          <div class="nav-profilo">
+            <i class="bi bi-person"></i>
+            <p class="nav-p nav-profilo">Profilo</p>
+          </div>
+        </div>
+      </footer>
     </div>
-
-
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-nav">
-        <div class="nav-home">
-        <
-        <p class="nav-p nav-home">588</p>
-        </div>
-         <div class="nav-amici">
-        <
-        <p class="nav-p nav-amici">588</p>
-        </div> 
-        <div class="nav-add-button"></div>
-        
-        <div class="nav-posta">
-        <
-        <p class="nav-p nav-posta">588</p>
-        </div> 
-        <div class="nav-profilo">
-        <
-        <p class="nav-p nav-profilo">588</p>
-        </div>
-
-      </div>
-    </footer>
-  </div>
-
-</body>
-
+  </body>
 </html>
