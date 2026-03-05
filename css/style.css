@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+/* Utilities */
+
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
@@ -31,9 +33,14 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-
+	color:white;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.header-categories p.header-text {
+	font-family: "TikTok Sans", sans serif;
+	font-size:10px;
 }
 
 /* Footer */
